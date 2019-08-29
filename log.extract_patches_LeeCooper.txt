@@ -1,0 +1,10 @@
+nohup: ignoring input
+extracting patch:  TCGA-AO-A128-DX1_xmin11924_ymin4831_.png
+extracting patch:  TCGA-OL-A5RW-DX1_xmin5772_ymin6839_.png
+extracting patch:  TCGA-S3-AA15-DX1_xmin55486_ymin28926_.png
+extracting patch:  TCGA-AO-A124-DX1_xmin16436_ymin1748_.png
+extracting patch:  TCGA-AO-A129-DX1_xmin37502_ymin12501_.png
+extracting patch:  TCGA-AO-A03U-DX1_xmin17362_ymin25363_.png
+extracting patch:  TCGA-S3-AA10-DX1_xmin43039_ymin23986_.png
+extracting patch:  TCGA-A2-A0D2-DX1_xmin96887_ymin22299_.png
+extracting patch:  TCGA-AN-A0XU-DX1_xmin26118_ymin18441_.png
