@@ -3,10 +3,10 @@ import cv2
 import numpy as np
 import math
 
-print('Usage: python gen_combined_cancer_til.py folder_cancer_png folder_lym_png')
+print('Usage: python gen_combined_cancer_til_aligned.py folder_cancer_png folder_lym_png out_fol')
 
-# pred_fol = sys.argv[1]
-# extension = sys.argv[2]
+# cancer_fol = sys.argv[1]
+# lym_fol = sys.argv[2]
 # out_fol = sys.argv[3]
 
 cancer_fol = '/data01/shared/hanle/tumor_project/pub_tumor_cancer_brca/heatmap_png/heatmap_png_til_cancer_tumor/paad_cancer_png'
@@ -65,4 +65,4 @@ for count, fn in enumerate(cancer_fns):
                 out[i, j] = np.array([0,0,255])
 
     if not os.path.exists(out_fol): os.mkdir(out_fol)
-    cv2.imwrite(os.path.join(out_fol, slide_id + '_cancer_til.png'), out)
+    cv2.imwrite(os.path.join(out_fol, slide_id + '.png'), out)
