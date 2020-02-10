@@ -1,0 +1,651 @@
+Total number of files:  1290
+Total number of files:  1290
+Total number of files:  1290
+prediction-17032576
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032576.svs
+prediction-17032577
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032577.svs
+prediction-17032578
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032578.svs
+prediction-17032579
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032579.svs
+prediction-17032580
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032580.svs
+prediction-17032581
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032581.svs
+prediction-17032582
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032582.svs
+prediction-17032583
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032583.svs
+prediction-17032584
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032584.svs
+prediction-17032585
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032585.svs
+prediction-17032586
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032586.svs
+prediction-17032587
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032587.svs
+prediction-17032588
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032588.svs
+prediction-17032589
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032589.svs
+prediction-17032590
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032590.svs
+prediction-17032591
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032591.svs
+prediction-17032592
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032592.svs
+prediction-17032593
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032593.svs
+prediction-17032594
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032594.svs
+prediction-17032595
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032595.svs
+prediction-17032596
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032596.svs
+prediction-TCGA-A7-A3RF-01Z-00-DX1
+	size of iml:  (153, 516)
+	cancer patch:  354.0
+max x, width, max_y, height:  182391.0 182784 54062.0 54503
+inds:  0.0 515.0 0.0 152.0
+	up:  354
+	scale:  1.0006569438969912 1.0062959270337137
+	shape of tils:  (242638, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-D8-A13Y-01Z-00-DX2
+	TIL pred file not exists:  TCGA-D8-A13Y-01Z-00-DX2
+prediction-TCGA-D8-A13Z-01Z-00-DX1
+	size of iml:  (233, 272)
+	cancer patch:  353.0
+max x, width, max_y, height:  95750.0 96151 81996.0 82354
+inds:  0.0 271.0 0.0 232.0
+	up:  353
+	scale:  1.001406015664056 1.0012766112657905
+	shape of tils:  (194208, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-17039827
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039827.svs
+prediction-17039828
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039828.svs
+prediction-17039829
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039829.svs
+prediction-17039830
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039830.svs
+prediction-17039831
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039831.svs
+prediction-17039832
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039832.svs
+prediction-17039833
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039833.svs
+prediction-17039834
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039834.svs
+prediction-17039835
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039835.svs
+prediction-17039836
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039836.svs
+prediction-17039837
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039837.svs
+prediction-17039838
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039838.svs
+prediction-17039841
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039841.svs
+prediction-17039842
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039842.svs
+prediction-17039843
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039843.svs
+prediction-17039844
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039844.svs
+prediction-17039877
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039877.svs
+prediction-17039878
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039878.svs
+prediction-17039879
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039879.svs
+prediction-17039880
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039880.svs
+prediction-17039885
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039885.svs
+prediction-TCGA-A8-A07P-01Z-00-DX1
+	size of iml:  (106, 72)
+	cancer patch:  376.0
+max x, width, max_y, height:  26908.0 27392 40456.0 40192
+inds:  0.0 71.0 0.0 107.0
+	up:  379
+	scale:  1.0038111990618588 1.0004480509782447
+	shape of tils:  (23622, 4)
+	patch til size, window_half:  215.0 107 107
+prediction-TCGA-AO-A0JE-01Z-00-DX1
+	size of iml:  (223, 352)
+	cancer patch:  175.0
+max x, width, max_y, height:  61572.0 61751 38975.0 39098
+inds:  0.0 351.0 0.0 222.0
+	up:  175
+	scale:  1.0024512987012988 1.0018705957719412
+	shape of tils:  (240240, 4)
+	patch til size, window_half:  100.0 49 49
+prediction-TCGA-BH-A0AZ-01Z-00-DX1
+	size of iml:  (206, 244)
+	cancer patch:  349.0
+max x, width, max_y, height:  85023.0 85450 71754.0 72222
+inds:  0.0 243.0 0.0 205.0
+	up:  350
+	scale:  1.0005854800936769 1.0016920943134535
+	shape of tils:  (154508, 4)
+	patch til size, window_half:  200.0 99 99
+prediction-TCGA-D8-A3Z5-01Z-00-DX1
+	size of iml:  (225, 341)
+	cancer patch:  354.0
+max x, width, max_y, height:  120708.0 120904 79586.0 79899
+inds:  0.0 340.0 0.0 224.0
+	up:  354
+	scale:  1.00157396822241 1.0031261770244821
+	shape of tils:  (235218, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-17039886
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039886.svs
+prediction-17039889
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039889.svs
+prediction-17039890
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039890.svs
+prediction-17039891
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039891.svs
+prediction-17039892
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039892.svs
+prediction-17039895
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039895.svs
+prediction-17039896
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039896.svs
+prediction-17039897
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039897.svs
+prediction-17039898
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039898.svs
+prediction-17039899
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039899.svs
+prediction-17039900
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039900.svs
+prediction-17039907
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039907.svs
+prediction-17039908
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039908.svs
+prediction-17039920
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039920.svs
+prediction-17039921
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039921.svs
+prediction-17039922
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039922.svs
+prediction-17039923
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039923.svs
+prediction-17040237
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17040237.svs
+prediction-17040238
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17040238.svs
+prediction-17040239
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17040239.svs
+prediction-17040241
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17040241.svs
+prediction-TCGA-A8-A08O-01Z-00-DX1
+	size of iml:  (78, 116)
+	cancer patch:  376.0
+max x, width, max_y, height:  43467.0 43776 31424.0 29440
+inds:  0.0 115.0 0.0 83.0
+	up:  377
+	scale:  1.0010061282356169 1.0011562266204177
+	shape of tils:  (27608, 4)
+	patch til size, window_half:  215.0 107 107
+prediction-TCGA-AQ-A54N-01Z-00-DX1
+	size of iml:  (216, 220)
+	cancer patch:  354.0
+max x, width, max_y, height:  77667.0 78063 76252.0 76774
+inds:  0.0 219.0 0.0 215.0
+	up:  354
+	scale:  1.0023497688751926 1.0040541954383762
+	shape of tils:  (146294, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-BH-A0H7-01Z-00-DX1
+	size of iml:  (251, 375)
+	cancer patch:  352.0
+max x, width, max_y, height:  131825.0 132147 88177.0 88645
+inds:  0.0 374.0 0.0 250.0
+	up:  352
+	scale:  1.0011136363636364 1.0033162803332125
+	shape of tils:  (288640, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-TCGA-E9-A1R7-01Z-00-DX1
+	size of iml:  (203, 262)
+	cancer patch:  356.0
+max x, width, max_y, height:  92782.0 93296 72124.0 72433
+inds:  0.0 260.0 0.0 202.0
+	up:  356
+	scale:  1.0002573119478515 1.0022831682072286
+	shape of tils:  (162590, 4)
+	patch til size, window_half:  204.0 101 101
+prediction-17032597
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17032597.svs
+prediction-17033040
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033040.svs
+prediction-17033042
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033042.svs
+prediction-17033044
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033044.svs
+prediction-17033045
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033045.svs
+prediction-17033046
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033046.svs
+prediction-17033047
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033047.svs
+prediction-17033048
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033048.svs
+prediction-17033050
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033050.svs
+prediction-17033051
+	TIL pred file not exists:  17033051
+prediction-17033052
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033052.svs
+prediction-17033055
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033055.svs
+prediction-17033056
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033056.svs
+prediction-17033057
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033057.svs
+prediction-17033058
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033058.svs
+prediction-17033059
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033059.svs
+prediction-17033060
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033060.svs
+prediction-17033061
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033061.svs
+prediction-17033062
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033062.svs
+prediction-17033063
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033063.svs
+prediction-17033064
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033064.svs
+prediction-TCGA-AC-A3TM-01Z-00-DX1
+	size of iml:  (229, 290)
+	cancer patch:  347.0
+max x, width, max_y, height:  100505.0 100720 79328.0 79590
+inds:  0.0 289.0 0.0 228.0
+	up:  347
+	scale:  1.0008943654973665 1.0015982281061626
+	shape of tils:  (203307, 4)
+	patch til size, window_half:  198.0 98 98
+prediction-TCGA-D8-A1Y3-01Z-00-DX1
+	size of iml:  (206, 314)
+	cancer patch:  354.0
+max x, width, max_y, height:  111136.0 111384 72496.0 73022
+inds:  0.0 313.0 0.0 204.0
+	up:  354
+	scale:  1.002051171326784 1.0013438648455926
+	shape of tils:  (198000, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-17033065
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033065.svs
+prediction-17033079
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033079.svs
+prediction-17033080
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033080.svs
+prediction-17033081
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033081.svs
+prediction-17033361
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033361.svs
+prediction-17033362
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033362.svs
+prediction-17033772
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033772.svs
+prediction-17033773
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17033773.svs
+prediction-17035672
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17035672.svs
+prediction-17035673
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17035673.svs
+prediction-17035674
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17035674.svs
+prediction-17035678
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17035678.svs
+prediction-17035679
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17035679.svs
+prediction-17039789
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039789.svs
+prediction-17039790
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039790.svs
+prediction-17039791
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039791.svs
+prediction-17039792
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039792.svs
+prediction-17039793
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039793.svs
+prediction-17039794
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039794.svs
+prediction-17039825
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039825.svs
+prediction-17039826
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17039826.svs
+prediction-TCGA-A8-A06O-01Z-00-DX1
+	size of iml:  (142, 120)
+	cancer patch:  376.0
+max x, width, max_y, height:  47230.0 45312 53252.0 53504
+inds:  0.0 125.0 0.0 141.0
+	up:  376
+	scale:  1.004255319148936 1.002097692538208
+	shape of tils:  (52080, 4)
+	patch til size, window_half:  215.0 107 107
+prediction-TCGA-AR-A1AJ-01Z-00-DX1
+	size of iml:  (159, 271)
+	cancer patch:  354.0
+max x, width, max_y, height:  97665.0 96152 56189.0 56466
+inds:  0.0 275.0 0.0 158.0
+	up:  354
+	scale:  1.002272395605312 1.0031979533098816
+	shape of tils:  (131772, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-BH-A1EV-01Z-00-DX1
+	size of iml:  (236, 338)
+	cancer patch:  349.0
+max x, width, max_y, height:  117844.0 118095 82229.0 82505
+inds:  0.0 337.0 0.0 235.0
+	up:  349
+	scale:  1.001127481731405 1.0017119129716867
+	shape of tils:  (244083, 4)
+	patch til size, window_half:  200.0 99 99
+prediction-TCGA-EW-A1IX-01Z-00-DX1
+	size of iml:  (184, 310)
+	cancer patch:  352.0
+max x, width, max_y, height:  108945.0 109165 64593.0 64803
+inds:  0.0 309.0 0.0 183.0
+	up:  352
+	scale:  1.0004123900293256 1.0005403903162056
+	shape of tils:  (174524, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-BC_061_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_061_0_1.svs
+prediction-BC_061_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_061_0_2.svs
+prediction-BC_062_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_062_0_1.svs
+prediction-BC_062_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_062_0_2.svs
+prediction-BC_063_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_063_0_1.svs
+prediction-BC_063_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_063_0_2.svs
+prediction-BC_065_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_065_0_1.svs
+prediction-BC_066_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_066_1_1.svs
+prediction-BC_067_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_067_0_1.svs
+prediction-BC_067_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_067_0_2.svs
+prediction-BC_068_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_068_0_1.svs
+prediction-BC_069_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_069_0_1.svs
+prediction-BC_096_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_096_1_1.svs
+prediction-BC_184_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_184_1_1.svs
+prediction-BC_184_1_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_184_1_2.svs
+prediction-BC_201_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_201_1_1.svs
+prediction-BC_201_1_2
+	TIL pred file not exists:  BC_201_1_2
+prediction-BC_264_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_264_1_1.svs
+prediction-BC_268_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_268_1_1.svs
+prediction-BC_277_2_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_277_2_1.svs
+prediction-BC_277_2_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_277_2_2.svs
+prediction-TCGA-AC-A8OP-01Z-00-DX1
+	size of iml:  (153, 124)
+	cancer patch:  347.0
+max x, width, max_y, height:  42876.0 43166 52943.0 53252
+inds:  0.0 123.0 0.0 152.0
+	up:  348
+	scale:  1.000324434556915 1.00015025167155
+	shape of tils:  (58156, 4)
+	patch til size, window_half:  198.0 98 98
+prediction-TCGA-AR-A2LM-01Z-00-DX1
+	size of iml:  (248, 377)
+	cancer patch:  353.0
+max x, width, max_y, height:  132780.0 133279 87638.0 87843
+inds:  0.0 376.0 0.0 248.0
+	up:  353
+	scale:  1.0014878156911955 1.0034154253860916
+	shape of tils:  (287535, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-E2-A1B0-01Z-00-DX1
+	size of iml:  (230, 311)
+	cancer patch:  354.0
+max x, width, max_y, height:  110073.0 110432 81358.0 81580
+inds:  0.0 310.0 0.0 229.0
+	up:  354
+	scale:  1.0030701037295402 1.0019651191353476
+	shape of tils:  (218990, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-A2-A0CM-01Z-00-DX1
+	size of iml:  (218, 272)
+	cancer patch:  352.0
+max x, width, max_y, height:  95569.0 95758 76561.0 76873
+inds:  0.0 271.0 0.0 217.0
+	up:  352
+	scale:  1.0001462232620322 1.0017853419516263
+	shape of tils:  (181450, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-TCGA-BH-A0WA-01Z-00-DX1
+	size of iml:  (189, 220)
+	cancer patch:  352.0
+max x, width, max_y, height:  77265.0 77564 66353.0 66779
+inds:  0.0 219.0 0.0 188.0
+	up:  352
+	scale:  1.0016012396694214 1.0037728475228476
+	shape of tils:  (127435, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-TCGA-E2-A158-01Z-00-DX1
+	size of iml:  (201, 357)
+	cancer patch:  354.0
+max x, width, max_y, height:  126380.0 126616 70723.0 71160
+inds:  0.0 357.0 0.0 199.0
+	up:  354
+	scale:  1.0018832391713748 1.0000843241420019
+	shape of tils:  (219275, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-17043253
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043253.svs
+prediction-17043254
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043254.svs
+prediction-17043255
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043255.svs
+prediction-17043259
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043259.svs
+prediction-17043347
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043347.svs
+prediction-17043366
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17043366.svs
+prediction-17044731
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044731.svs
+prediction-17044732
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044732.svs
+prediction-17044733
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044733.svs
+prediction-17044734
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044734.svs
+prediction-17044735
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044735.svs
+prediction-17044736
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044736.svs
+prediction-17044737
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044737.svs
+prediction-17044738
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/17044738.svs
+prediction-BC_056_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_056_0_1.svs
+prediction-BC_057_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_057_0_1.svs
+prediction-BC_057_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_057_0_2.svs
+prediction-BC_059_0_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_059_0_1.svs
+prediction-BC_059_0_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_059_0_2.svs
+prediction-BC_060_1_1
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_060_1_1.svs
+prediction-BC_060_1_2
+	svs file not exists:  /data01/shared/hanle/svs_tcga_seer_brca/BC_060_1_2.svs
+prediction-TCGA-AC-A23G-01Z-00-DX1
+	size of iml:  (52, 55)
+	cancer patch:  356.0
+max x, width, max_y, height:  19403.0 19920 19047.0 18542
+inds:  0.0 54.0 0.0 53.0
+	up:  356
+	scale:  1.017364657814096 1.0016205704407952
+	shape of tils:  (8827, 4)
+	patch til size, window_half:  204.0 100 101
+prediction-TCGA-AN-A0FY-01Z-00-DX1
+	size of iml:  (123, 134)
+	cancer patch:  353.0
+max x, width, max_y, height:  47082.0 47599 43555.0 43746
+inds:  0.0 133.0 0.0 123.0
+	up:  355
+	scale:  1.0006096279167542 1.0018550326348334
+	shape of tils:  (50976, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-B6-A0IJ-01Z-00-DX1
+	size of iml:  (100, 291)
+	cancer patch:  352.0
+max x, width, max_y, height:  102257.0 102461 35025.0 35513
+inds:  0.0 290.0 0.0 99.0
+	up:  352
+	scale:  1.0002831146516713 1.0088920454545454
+	shape of tils:  (89584, 4)
+	patch til size, window_half:  201.0 100 99
+prediction-TCGA-BH-A0BQ-01Z-00-DX1
+	size of iml:  (254, 302)
+	cancer patch:  349.0
+max x, width, max_y, height:  105274.0 105613 88514.0 88852
+inds:  0.0 301.0 0.0 253.0
+	up:  349
+	scale:  1.0020398869048748 1.002323849919906
+	shape of tils:  (235405, 4)
+	patch til size, window_half:  200.0 99 99
+prediction-TCGA-E9-A244-01Z-00-DX1
+	size of iml:  (194, 293)
+	cancer patch:  354.0
+max x, width, max_y, height:  103337.0 103768 68596.0 68775
+inds:  0.0 291.0 0.0 193.0
+	up:  354
+	scale:  1.0004434931837025 1.0014415516337585
+	shape of tils:  (173568, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-A2-A0EQ-01Z-00-DX1
+	size of iml:  (247, 345)
+	cancer patch:  352.0
+max x, width, max_y, height:  121265.0 121613 86769.0 87178
+inds:  0.0 344.0 0.0 246.0
+	up:  352
+	scale:  1.0014245718050065 1.0026913875598087
+	shape of tils:  (261532, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-TCGA-C8-A1HM-01Z-00-DX1
+	size of iml:  (156, 200)
+	cancer patch:  356.0
+max x, width, max_y, height:  71056.0 71400 55384.0 55667
+inds:  0.0 199.0 0.0 155.0
+	up:  356
+	scale:  1.002808988764045 1.0023588303082684
+	shape of tils:  (95420, 4)
+	patch til size, window_half:  204.0 101 101
+prediction-TCGA-E2-A10E-01Z-00-DX1
+	size of iml:  (272, 323)
+	cancer patch:  353.0
+max x, width, max_y, height:  113736.0 114239 95750.0 96156
+inds:  0.0 322.0 0.0 271.0
+	up:  353
+	scale:  1.0019295029775739 1.0014580903182804
+	shape of tils:  (269416, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-A1-A0SF-01Z-00-DX1
+	size of iml:  (244, 188)
+	cancer patch:  347.0
+max x, width, max_y, height:  65063.0 65276 85189.0 84727
+inds:  0.0 187.0 0.0 245.0
+	up:  347
+	scale:  1.0006131583788092 1.0006968394198517
+	shape of tils:  (140483, 4)
+	patch til size, window_half:  198.0 98 98
+prediction-TCGA-BH-A0DS-01Z-00-DX1
+	size of iml:  (247, 369)
+	cancer patch:  352.0
+max x, width, max_y, height:  129713.0 130231 86769.0 87124
+inds:  0.0 368.0 0.0 246.0
+	up:  352
+	scale:  1.002640736634639 1.0020702981229297
+	shape of tils:  (280151, 4)
+	patch til size, window_half:  201.0 100 100
+prediction-TCGA-EW-A1PA-01Z-00-DX1
+	size of iml:  (224, 277)
+	cancer patch:  353.0
+max x, width, max_y, height:  97866.0 98055 79174.0 79409
+inds:  0.0 277.0 0.0 224.0
+	up:  353
+	scale:  1.0028021803826919 1.0042619384864426
+	shape of tils:  (190998, 4)
+	patch til size, window_half:  202.0 100 100
+prediction-TCGA-A2-A4RY-01Z-00-DX1
+	size of iml:  (228, 244)
+	cancer patch:  355.0
+max x, width, max_y, height:  86402.0 86632 82854.0 80946
+inds:  0.0 243.0 0.0 233.0
+	up:  355
+	scale:  1.0001385361348418 1.0000741289844328
+	shape of tils:  (170373, 4)
+	patch til size, window_half:  203.0 101 101
+prediction-TCGA-C8-A12U-01Z-00-DX1
+	size of iml:  (248, 254)
+	cancer patch:  356.0
+max x, width, max_y, height:  89933.0 90440 89576.0 88610
+inds:  0.0 252.0 0.0 251.0
+	up:  356
+	scale:  1.000176944174113 1.0036471547662196
+	shape of tils:  (193140, 4)
+	patch til size, window_half:  204.0 101 101
+prediction-TCGA-EW-A6SD-01Z-00-DX1
+	size of iml:  (247, 305)
+	cancer patch:  346.0
+max x, width, max_y, height:  105163.0 105576 85066.0 85495
+inds:  0.0 303.0 0.0 245.0
+	up:  346
+	scale:  1.0004358950061594 1.0003861365285156
+	shape of tils:  (229623, 4)
+	patch til size, window_half:  198.0 98 98
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "gen_cancer_tils_pathDB_combined_maps_TILs-VGG.py", line 110, in process_file
+    colors = np.loadtxt(os.path.join(til_thresholded, 'color-' + slide_id))
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/site-packages/numpy/lib/npyio.py", line 926, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data01/shared/hanle/tumor_project/pub_tumor_cancer_brca/til_brca_vgg_mix_binary_heatmap_txt/color-TCGA-AC-A23G-01Z-00-DX1 not found.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "gen_cancer_tils_pathDB_combined_maps_TILs-VGG.py", line 157, in <module>
+    pool.map(process_file, cancer_preds_files)
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/multiprocessing/pool.py", line 266, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/home/hanle/anaconda3/envs/py3/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: /data01/shared/hanle/tumor_project/pub_tumor_cancer_brca/til_brca_vgg_mix_binary_heatmap_txt/color-TCGA-AC-A23G-01Z-00-DX1 not found.
