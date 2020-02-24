@@ -57,10 +57,11 @@ def process_file(pred_fn):
     if not os.path.exists(os.path.join(til_thresholded, 'prediction-' + slide_id)):
         print('\tTIL pred file not exists: ', slide_id)
         return
+
     res_file = os.path.join(til_cancer_fol, slide_id + '.csv')
     res_file_png = os.path.join(til_cancer_fol, slide_id + '.png')
     if os.path.exists(res_file):
-        print('\tfile generated')
+        print('\tfile generated: ', slide_id)
         return
 
     cancer = np.loadtxt(os.path.join(cancer_pred_fol, 'prediction-' + slide_id))
