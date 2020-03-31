@@ -21,7 +21,7 @@ class HeatMap(object):
             slideId(str): id of svs file, like 'TCGA-3C-AALI-01Z-00-DX1'.
         """
         predictionFileName = prefix + slideId
-        colorFileName = 'color-'+slideId
+        colorFileName = 'color-' + slideId
         self.heatmap = self.getHeatMap(os.path.join(self.rootFolder, predictionFileName),
                                os.path.join(self.rootFolder, colorFileName))
         return self.heatmap

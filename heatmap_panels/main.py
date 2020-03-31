@@ -1,32 +1,34 @@
+import collections
 from utils import *
 from FourPanelGleasonImage import FourPanelGleasonImage
 from HeatMap import HeatMap
-from MergedHeatMap import MergedHeatMap
-from PredictionFile import  PredictionFile
 from StagedTumorHeatMap import StagedTumorHeatMap
 
-
-
 # these folders will be replaced by paramaters
-svs_fol_staged = '/data10/shared/hanle/svs_SEER_PRAD'
-staged_pred = '/data04/shared/hanle/prad_cancer_detection_SEER/data/heatmap_txt_3classes_header_seer1'
-output_pred = '/data02/shared/hanle/test_4panedl_seer_prad'
-
-# test_svs_id = 'TCGA-2A-A8VO-01Z-00-DX1'
+svs_fol = '/data02/shared/hanle/svs_tcga_prad/'
+staged_pred = '/data04/shared/hanle/quip_prad_cancer_detection_TCGA/data/heatmap_txt_3classes_with_headers'
+til_fol = '/data04/shared/shahira/TIL_heatmaps/PRAD/vgg_mix_binary/heatmap_txt'
+output_pred = '4panel_pngs'
 
 prefix = "prediction-"
-wsi_extension = ".tif"
+wsi_extension = ".svs"
 skip_first_line_pred = True
-args = None
+
+fns = [fn.split('prediction-')[-1] for fn in os.listdir(til_fol) if fn.startswith('prediction-') and not fn.endswith('low_res')]
+til_wsiID_map = collections.defaultdict(str)
+for fn in fns:
+    til_wsiID_map[fn.split('.')[0]] = fn
 
 
 def checkFileExisting(wsiId):
+    # til_wsiID = til_wsiID_map[wsiId]  # if cancer id is different from til slide id
+    til_wsiID = wsiId
     allPath = [
-        os.path.join(staged_pred, 'color-'+wsiId), # colorPath
-        os.path.join(svs_fol_staged, wsiId+wsi_extension), # svsPath
-        os.path.join(staged_pred, prefix+wsiId), # predPath
-        #os.path.join(til_fol, 'prediction-'+wsiId), # tilPath_pred
-        #os.path.join(til_fol, 'color-'+wsiId), # tilPath_color
+        os.path.join(staged_pred, 'color-' + wsiId), # colorPath
+        os.path.join(svs_fol, wsiId + wsi_extension), # svsPath
+        os.path.join(staged_pred, prefix + wsiId), # predPath
+        os.path.join(til_fol, 'prediction-' + til_wsiID), # tilPath_pred
+        os.path.join(til_fol, 'color-' + til_wsiID), # tilPath_color
     ]
     ans = True
     for path in allPath:
@@ -37,15 +39,23 @@ def checkFileExisting(wsiId):
     return ans
 
 
-def gen1Image(f):
-    wsiId = f[len(prefix):]
+def gen1Image(fn):
+    wsiId = fn[len(prefix):]
     if not checkFileExisting(wsiId):
         return
-    oslide = openslide.OpenSlide(os.path.join(svs_fol_staged, wsiId+wsi_extension))
+
+    oslide = openslide.OpenSlide(os.path.join(svs_fol, wsiId + wsi_extension))
+
+    # til_wsi = til_wsiID_map[wsiId]     # if cancer id is different from til slide id
+    til_wsiID = wsiId
+    til_heatmap = HeatMap(til_fol, skip_first_line_pred=False)
+    til_heatmap.setWidthHeightByOSlide(oslide)
+    til_map = til_heatmap.getHeatMapByID(til_wsiID)
+
     stagedCancerFile = StagedTumorHeatMap(staged_pred, skip_first_line_pred)
     stagedCancerFile.setWidthHeightByOSlide(oslide)
     stagedCancerMap = stagedCancerFile.getHeatMapByID(wsiId)
-    classificationMap = stagedCancerFile.getTumorClassificationMap()
+    classificationMap = stagedCancerFile.getStageClassificationTilMap(tilMap=til_map)
     stageClassificationMap = stagedCancerFile.getStageClassificationMap()
 
     img = FourPanelGleasonImage(oslide, stagedCancerMap, classificationMap, stageClassificationMap,
@@ -57,22 +67,24 @@ def gen1Image(f):
 def main(parallel_processing = False):
     if not os.path.isdir(output_pred):
         os.makedirs(output_pred)
-    print(prefix)
+    print('In main, prefix: ', prefix)
 
-    grades_prediction_fns = [f for f in os.listdir(staged_pred) if f.startswith(prefix)]
+    grades_prediction_fns = [f for f in os.listdir(staged_pred) if f.startswith(prefix) and not f.endswith('low_res')]
 
     if len(grades_prediction_fns) == 0:
-        print("No valid file!")
+        print("In main: No valid file!")
         return
 
     if not parallel_processing:
-        for i, f in enumerate(grades_prediction_fns):
-            gen1Image(f)
-            print(i, f)
+        for i, fn in enumerate(grades_prediction_fns):
+            print(i, fn)
+            gen1Image(fn)
     else:
         num_of_cores = multiprocessing.cpu_count() - 2
+        print("Using multiprocessing, num_cores: ", num_of_cores)
         p = multiprocessing.Pool(num_of_cores)
         p.map(gen1Image, grades_prediction_fns)
+
 
 if __name__ == "__main__":
     is_parallel = True if str2bool(sys.argv[1]) else False

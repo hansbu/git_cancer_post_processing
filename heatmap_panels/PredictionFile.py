@@ -13,7 +13,7 @@ class PredictionFile(XYLabelFile):
             self.pred, self.necr = self.extract([2, 3])
         else:
             self.pred = self.extract([2])
-            self.necr = np.ones_like(self.pred, dtype=self.pred.dtype)
+            self.necr = np.zeros_like(self.pred, dtype=self.pred.dtype)
         return self.pred, self.necr, self.patchSize
 
     def get_labeled_im(self):

@@ -38,7 +38,7 @@ class StagedTumorHeatMap(HeatMap):
     def getTumorClassificationMap(self):
         predictionFile = self.predictionFile
         stackedArray = np.stack([predictionFile.pred,
-                                 predictionFile.benign],  # stroma
+                                 predictionFile.benign_adjusted],  # stroma
                                 axis=2)
         #         print("stackedArray.shape",stackedArray.shape)
         classification = np.argmax(stackedArray, axis=2)
@@ -111,7 +111,7 @@ class StagedTumorHeatMap(HeatMap):
             for x in range(cancerArray.shape[1]):
                 for y in range(cancerArray.shape[0]):
                     iml_u[y * up:(y + 1) * up, x * up:(x + 1) * up] = cancerArray[y, x]
-            # cancerArray = iml_u.copy()
+
             cancerArray = iml_u.astype(np.uint8)
 
         smooth5 = cancerArray
@@ -120,8 +120,6 @@ class StagedTumorHeatMap(HeatMap):
 
         smooth5 = cv2.resize(smooth5, (lympImg.shape[1], lympImg.shape[0]), interpolation=cv2.INTER_LINEAR)
         smooth5 = cv2.GaussianBlur(smooth5, (5, 5), 0)
-
-        print(np.max(smooth5))
 
         out = np.zeros_like(lympImg, dtype=np.uint8)
 
