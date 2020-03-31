@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c4fbafb-2dae-4038-8156-747a04c233ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZtizKy1lNPJpXC52o4VajcJejH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="heatmap_panels" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/anaconda3/envs/py3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c4fbafb-2dae-4038-8156-747a04c233ac" name="Default Changelist" comment="" />
+      <created>1585665052262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585665052262</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="188" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585665136593">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="188" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1876.1057@0.23.1440.877" timestamp="1585665136593" />
+    <state x="233" y="101" key="SettingsEditor" timestamp="1585665164177">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="233" y="101" key="SettingsEditor/0.23.1440.877/1440.23.1876.1057@0.23.1440.877" timestamp="1585665164177" />
+    <state x="403" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585665059173">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="403" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1876.1057@0.23.1440.877" timestamp="1585665059173" />
+  </component>
+</project>
