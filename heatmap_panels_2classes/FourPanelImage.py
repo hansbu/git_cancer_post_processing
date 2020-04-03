@@ -77,7 +77,7 @@ class FourPanelImage(object):
         TilR = TilMapSmoothImg[:, :, 2]  # bgr
         TilInts = TilR.astype(np.float)
         TilInts = TilInts / 255
-        TilB = cancerSmoothImg[:, :, 0]  # b
+        TilB = TilMapSmoothImg[:, :, 0]  # b
         TilInts[TilB < 50] = None
         TilIm = axarr[1, 0].imshow(TilInts, cmap='jet', vmax=1.0, vmin=0.0)
 

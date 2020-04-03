@@ -61,7 +61,7 @@ def gen1Image(fn):
     print(wsiId)
 
 
-def main(parallel_processing = False):
+def main(parallel_processing = 0):
     if not os.path.isdir(output_pred):
         os.makedirs(output_pred)
     print('In main, prefix: ', prefix)
@@ -72,20 +72,32 @@ def main(parallel_processing = False):
         print("In main: No valid file!")
         return
 
-    if not parallel_processing:
+    if parallel_processing in {0, 1}:
         for i, fn in enumerate(grades_prediction_fns):
             print(i, fn)
             gen1Image(fn)
     else:
         num_of_cores = multiprocessing.cpu_count() - 2
+        if parallel_processing > 0:
+            num_of_cores = min(num_of_cores, parallel_processing)
+
         print("Using multiprocessing, num_cores: ", num_of_cores)
         p = multiprocessing.Pool(num_of_cores)
         p.map(gen1Image, grades_prediction_fns)
 
 
 if __name__ == "__main__":
-    is_parallel = True if str2bool(sys.argv[1]) else False
-    main(parallel_processing = is_parallel)
+    if len(sys.argv) == 1:
+        parallel_processing = 0
+    else:
+        parallel_processing = int(sys.argv[1])
+
+    print("Usage: python main.py 0/1/4/-1")
+    print("0/1: not using parallel processing")
+    print("any number larger, N, than 1, using N cores in parallel processing")
+    print("-1: use all or available cores in parallel processing, left 2 cores for others")
+
+    main(parallel_processing = parallel_processing)
 
 
 
