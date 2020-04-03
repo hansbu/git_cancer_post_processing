@@ -92,10 +92,12 @@ if __name__ == "__main__":
     else:
         parallel_processing = int(sys.argv[1])
 
+    print("***********************************************")
     print("Usage: python main.py 0/1/4/-1")
     print("0/1: not using parallel processing")
-    print("any number larger, N, than 1, using N cores in parallel processing")
-    print("-1: use all or available cores in parallel processing, left 2 cores for others")
+    print("any number larger than 1, N, using N cores in parallel processing")
+    print("-1: use all available cores in parallel processing, left 2 cores for others")
+    print("***********************************************\n")
 
     main(parallel_processing = parallel_processing)
 
