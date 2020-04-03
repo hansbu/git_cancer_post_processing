@@ -24,8 +24,7 @@ class FourPanelGleasonImage(object):
 
         width = 6.4 * 1
         mpl.rcParams["figure.figsize"] = [width * 1.10, width * aspect]
-        mpl.rcParams["figure.dpi"] = 600
-        #         print(aspect)
+        mpl.rcParams["figure.dpi"] = 300
 
         if aspect > 1:
             hspace = 0.04

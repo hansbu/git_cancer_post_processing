@@ -45,8 +45,7 @@ class StagedTumorHeatMap(HeatMap):
 
         colorArray = np.array([  # rgb array
             [255, 255, 0],  # tumor yellow
-            [0, 0, 255],  # benign blue
-            [192, 192, 192]  # stroma gray # not used
+            [0, 0, 255]  # benign blue
         ])
         self.tumorColorArray = colorArray
 
